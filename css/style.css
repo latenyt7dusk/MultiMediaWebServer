@@ -1,0 +1,31 @@
+/*
+	Media Server
+	by Kelvin Nakpil
+	kelvin.nakpil.heru@gmail.com
+*/
+
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Orbitron:400,700,900");
+
+/* General Presets */
+html, body { margin:0; padding:0; height:100%; font-family: 'Orbitron', sans-serif; font-weight: 300; outline: 0px!important; }
+a { outline: 0px!important; }
+#wrapper { min-height:100%; position:relative; outline: 0px!important;}
+#header { margin:0; padding:0; outline: 0px!important;}
+#content { padding-bottom: 85px; /* Height of the footer element */ outline: 0px!important; }
+#footer { width: 100%; height: auto; position:fixed; bottom:0; left:0; outline: 0px!important;}
+
+/* Navbar Presets*/
+.navbar-default {background: #FFF;}
+.navbar-nav li { padding: 0px 0px 0px; }
+.navbar-search {padding: 0px; border: none; margin-top: 12px; margin-right: 2px; }
+.navbar-brand { padding: 5px 15px; }
+.navbar-brand > img { width: 100px; }
+.navbar-toggle { padding: 0px; border: none; margin-top: 12px; margin-right: 15px; }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover { background: none;}
+.navbar-toggle img { width: 34px; height: 40px; }
+.navbar-nav li a.menu-item:hover { color: dodgerblue;}
+.navbar-search form input.button {height: 20px;}
+
+
+
